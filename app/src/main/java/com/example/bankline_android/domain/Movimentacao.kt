@@ -5,5 +5,6 @@ data class Movimentacao(
     val dataHora: String,
     val descricao: String,
     val valor: Double,
-    val tipo: TipoMovimentacao
+    val tipo: TipoMovimentacao,
+    val idCorrentista: Int
 )
